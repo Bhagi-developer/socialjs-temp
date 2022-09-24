@@ -1,0 +1,93 @@
+.mainDiv {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.singlePost {
+    width: 50%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    display: flex;
+    text-align: left;
+}
+
+.singlePostWrapper {
+    text-align: left;
+    padding: 10px;
+}
+
+.singlePostTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlePostTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.singlePostTopRight {
+    cursor: pointer;
+}
+
+
+.singlePostProfileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.singlePostUsername {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.singlePostDate {
+    font-size: 12px;
+}
+
+.singlePostCenter {
+    margin: 20px 0;
+}
+
+.singlePostImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.commentsWrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.commentForm {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentInput {
+    height: 60px;
+}
+
+.commentButton {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+}

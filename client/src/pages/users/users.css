@@ -1,0 +1,68 @@
+.users {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.seachQuery {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.seachUserInput {
+    height: 30px;
+}
+
+.seachUserInput:focus {
+    outline: none;
+}
+
+.searchQueryButton {
+    background-color: rgb(83, 151, 93);
+    height: 35px;
+    cursor: pointer;
+}
+
+.user {
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 30px;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.UserImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+.username {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.userJoined {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .chatOnlineName {
+        display: none;
+    }
+}

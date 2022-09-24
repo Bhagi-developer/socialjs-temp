@@ -1,0 +1,46 @@
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #ff7a7a;
+}
+
+::selection {
+    color: white;
+    background: #ff7a7a;
+}
+
+.profileUpdateForm {
+    display: flex;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+}
+
+
+.updateProfileBox {
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.updateProfileInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.updateProfileInput:focus {
+    outline: none;
+}
